@@ -1,16 +1,17 @@
 import React from 'react';
-import FormCarousel from './Components/FormCarousel';
+
 import './App.css';
 import './Components/Header.css';
+import JsonForm from './Components/JsonForm';
 
 function App() {
   return (
     <div>
-      <div className="App">
-        <header className="header">Eye Tracker</header>
+      <div className='App'>
+        <header className='header'>Eye Tracker</header>
       </div>
       <div>
-        <FormCarousel/>
+        <JsonForm />
       </div>
     </div>
   );
